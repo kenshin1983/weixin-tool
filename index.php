@@ -1,6 +1,6 @@
 <?php 
   //post 
-  if(!empty($_POST['link'] && !empty($_POST['data']))){
+  if(!empty($_POST['link']) && !empty($_POST['data'])){
     $signature = '5ad371e439a3ef69c7fe9c6a54774bfee4ea43a7';
     $timestamp = '1395233489';
     $nonce = '1876670608';
